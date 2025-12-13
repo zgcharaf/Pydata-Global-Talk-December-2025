@@ -3,7 +3,7 @@
 This repository hosts the **PDF slides** for my talk on **optimal binning** (credit-risk style discretization) and how it compares to standard approaches like **equal-width**, **quantile**,  **tree-based** and **optimization-based appaorach** binning, with an emphasis on **interpretability** and **out-of-sample stability**. 
 
 ## Slides
-- 📄 `slides.pdf`
+- 📄 `Optimal binning Pydata Global 2025.pdf`
 
 ## Topics covered
 - Why linear log-odds often fails for raw numeric features  
