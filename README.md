@@ -1,16 +1,25 @@
-# Optimal Binning in Logistic Regression — Slides
+# Optimal Binning in Logistic Regression
 
-This repository hosts the **PDF slides** for my talk on **optimal binning** (credit-risk style discretization) and how it compares to standard approaches like **equal-width**, **quantile**,  **tree-based** and **optimization-based appaorach** binning, with an emphasis on **interpretability** and **out-of-sample stability**. 
+**PyData Global 2025 · Charaf Zguiouar**
 
-## Slides
-- 📄 `Optimal binning Pydata Global 2025.pdf`
+How can discretizing numeric features make logistic regression more interpretable and better suited to nonlinear relationships?
 
-## Topics covered
-- Why linear log-odds often fails for raw numeric features  
-- Binning basics + intuition  
-- WoE (Weight of Evidence) and IV (Information Value)  
-- Optimal binning as a constrained optimization problem  
-- Quick model evaluation: AUC / calibration (Brier)
+**[Read the presentation slides](Optimal%20binning%20Pydata%20Global%202025.pdf)**
 
-## Contact
-- LinkedIn: https://www.linkedin.com/in/charaf-zguiouar/
+## Topics
+
+- Why raw numeric features may not have a linear relationship with log-odds.
+- Equal-width, quantile, tree-based, and optimization-based binning.
+- Weight of Evidence (WoE) and Information Value (IV).
+- Binning as a constrained optimization problem.
+- Evaluation using AUC and the Brier score, with attention to interpretability and out-of-sample stability.
+
+## Repository contents
+
+This repository contains the presentation PDF. It does not currently include a runnable benchmark or companion notebook.
+
+## Related work
+
+[Explainable credit scoring and segmentation](https://github.com/zgcharaf/XAI-CREDIT-SCORING) explores decision-tree rules and loan-risk segments.
+
+[LinkedIn](https://www.linkedin.com/in/charaf-zguiouar/)
